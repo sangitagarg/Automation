@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="methods">
+  <test name="Test">
+    <classes>
+      <class name="com.actitime.genericlib.Testannotationprogram"/>
+      <class name="com.actitime.genericlib.Testannotationprogram2"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Test(failed)" parallel="methods">
+    <classes>
+      <class name="com.actitime.genericlib.Testannotationprogram2">
+        <methods>
+          <include name="createcustomertest"/>
+          <include name="modifycustomertest"/>
+        </methods>
+      </class> <!-- com.actitime.genericlib.Testannotationprogram2 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="1" total="5" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="141" started-at="2019-11-10T20:38:13Z" finished-at="2019-11-10T20:38:13Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="141" started-at="2019-11-10T20:38:13Z" finished-at="2019-11-10T20:38:13Z">
+      <class name="com.actitime.genericlib.Testannotationprogram">
+        <test-method status="PASS" signature="modifycustomertest()[pri:0, instance:com.actitime.genericlib.Testannotationprogram@b39c39]" name="modifycustomertest" duration-ms="31" started-at="2019-11-11T02:08:13Z" finished-at="2019-11-11T02:08:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifycustomertest -->
+        <test-method status="PASS" signature="deletecustomertest()[pri:0, instance:com.actitime.genericlib.Testannotationprogram@b39c39]" name="deletecustomertest" duration-ms="47" started-at="2019-11-11T02:08:13Z" finished-at="2019-11-11T02:08:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletecustomertest -->
+        <test-method status="PASS" signature="createcustomertest()[pri:0, instance:com.actitime.genericlib.Testannotationprogram@b39c39]" name="createcustomertest" duration-ms="31" started-at="2019-11-11T02:08:13Z" finished-at="2019-11-11T02:08:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createcustomertest -->
+      </class> <!-- com.actitime.genericlib.Testannotationprogram -->
+      <class name="com.actitime.genericlib.Testannotationprogram2">
+        <test-method status="FAIL" signature="createcustomertest()[pri:0, instance:com.actitime.genericlib.Testannotationprogram2@6a03af]" name="createcustomertest" duration-ms="31" started-at="2019-11-11T02:08:13Z" finished-at="2019-11-11T02:08:13Z">
+          <exception class="java.lang.ArrayIndexOutOfBoundsException">
+            <message>
+              <![CDATA[3]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.ArrayIndexOutOfBoundsException: 3
+	at com.actitime.genericlib.Testannotationprogram2.createcustomertest(Testannotationprogram2.java:10)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.ArrayIndexOutOfBoundsException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createcustomertest -->
+        <test-method status="SKIP" signature="modifycustomertest()[pri:0, instance:com.actitime.genericlib.Testannotationprogram2@6a03af]" name="modifycustomertest" duration-ms="0" started-at="2019-11-11T02:08:13Z" depends-on-methods="com.actitime.genericlib.Testannotationprogram2.createcustomertest" finished-at="2019-11-11T02:08:13Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method Testannotationprogram2.modifycustomertest()[pri:0, instance:com.actitime.genericlib.Testannotationprogram2@6a03af] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method Testannotationprogram2.modifycustomertest()[pri:0, instance:com.actitime.genericlib.Testannotationprogram2@6a03af] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1039)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifycustomertest -->
+      </class> <!-- com.actitime.genericlib.Testannotationprogram2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
